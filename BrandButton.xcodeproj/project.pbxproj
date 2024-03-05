@@ -8,17 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		B818C7982B91D4E0000215E2 /* BrandButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7972B91D4E0000215E2 /* BrandButtonApp.swift */; };
-		B818C79A2B91D4E0000215E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7992B91D4E0000215E2 /* ContentView.swift */; };
+		B818C79A2B91D4E0000215E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7992B91D4E0000215E2 /* HomeView.swift */; };
 		B818C79C2B91D4E3000215E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B818C79B2B91D4E3000215E2 /* Assets.xcassets */; };
 		B818C79F2B91D4E3000215E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B818C79E2B91D4E3000215E2 /* Preview Assets.xcassets */; };
+		B818C7A82B91D647000215E2 /* BrandButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7A72B91D647000215E2 /* BrandButtonView.swift */; };
+		B818C7AA2B92731D000215E2 /* EnvironmentValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7A92B92731D000215E2 /* EnvironmentValue+Extensions.swift */; };
+		B818C7AC2B927386000215E2 /* BaseButtonView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7AB2B927386000215E2 /* BaseButtonView+Extension.swift */; };
+		B818C7AE2B927A1E000215E2 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7AD2B927A1E000215E2 /* Color+Extensions.swift */; };
+		B818C7B02B928551000215E2 /* BaseButtonViewColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7AF2B928551000215E2 /* BaseButtonViewColorStyle.swift */; };
+		B818C7BB2B928C12000215E2 /* ToggleComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7BA2B928C12000215E2 /* ToggleComponentView.swift */; };
+		B818C7BD2B928C8C000215E2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7BC2B928C8C000215E2 /* HomeViewModel.swift */; };
+		B818C7C02B9290B8000215E2 /* ColorPickerComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7BF2B9290B8000215E2 /* ColorPickerComponentView.swift */; };
+		B818C7C32B929459000215E2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7C22B929459000215E2 /* SplashView.swift */; };
+		B818C7C62B929471000215E2 /* LinearBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7C52B929471000215E2 /* LinearBackgroundView.swift */; };
+		B818C7CA2B94D94D000215E2 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7C92B94D94D000215E2 /* InitialView.swift */; };
+		B818C7CD2B94E850000215E2 /* ImagePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7CC2B94E850000215E2 /* ImagePlaceholderView.swift */; };
+		B818C7D02B94EC88000215E2 /* TextPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7CF2B94EC88000215E2 /* TextPickerView.swift */; };
+		B818C7D32B950062000215E2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7D22B950062000215E2 /* HapticManager.swift */; };
+		B818C7D52B951817000215E2 /* ToggleComponentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7D42B951817000215E2 /* ToggleComponentBuilder.swift */; };
+		B818C7D82B95196D000215E2 /* LocalizationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7D72B95196D000215E2 /* LocalizationKeys.swift */; };
+		B818C7DB2B951A9E000215E2 /* LocalizedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7DA2B951A9E000215E2 /* LocalizedTextView.swift */; };
+		B818C7DE2B95CEA3000215E2 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7DD2B95CEA3000215E2 /* SliderView.swift */; };
+		B818C7E02B95E3C6000215E2 /* HomeView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7DF2B95E3C6000215E2 /* HomeView+Extensions.swift */; };
+		B818C7E72B95E821000215E2 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7E62B95E821000215E2 /* BaseButtonStyle.swift */; };
+		B818C7E92B95E980000215E2 /* ColorPickerComponentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B818C7E82B95E980000215E2 /* ColorPickerComponentBuilder.swift */; };
+		B857ECC02B9648C600A8CAFD /* ProximaNova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B857ECBF2B9648C600A8CAFD /* ProximaNova.ttf */; };
+		B857ECC32B9662E100A8CAFD /* BrandButtonViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B857ECC22B9662E100A8CAFD /* BrandButtonViewBuilder.swift */; };
+		B8ADA19D2B97366500D58B2F /* kztimesnewroman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8ADA19C2B97366500D58B2F /* kztimesnewroman.ttf */; };
+		B8ADA19F2B974D9300D58B2F /* BrandButtonView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADA19E2B974D9300D58B2F /* BrandButtonView+Style.swift */; };
+		B8ADA1A12B9753B200D58B2F /* BrandButtonView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADA1A02B9753B200D58B2F /* BrandButtonView+UIKit.swift */; };
+		B8ADA1A32B9757E400D58B2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ADA1A22B9757E400D58B2F /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B818C7942B91D4E0000215E2 /* BrandButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B818C7972B91D4E0000215E2 /* BrandButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonApp.swift; sourceTree = "<group>"; };
-		B818C7992B91D4E0000215E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B818C7992B91D4E0000215E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B818C79B2B91D4E3000215E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B818C79E2B91D4E3000215E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B818C7A72B91D647000215E2 /* BrandButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonView.swift; sourceTree = "<group>"; };
+		B818C7A92B92731D000215E2 /* EnvironmentValue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValue+Extensions.swift"; sourceTree = "<group>"; };
+		B818C7AB2B927386000215E2 /* BaseButtonView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseButtonView+Extension.swift"; sourceTree = "<group>"; };
+		B818C7AD2B927A1E000215E2 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B818C7AF2B928551000215E2 /* BaseButtonViewColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonViewColorStyle.swift; sourceTree = "<group>"; };
+		B818C7BA2B928C12000215E2 /* ToggleComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleComponentView.swift; sourceTree = "<group>"; };
+		B818C7BC2B928C8C000215E2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B818C7BF2B9290B8000215E2 /* ColorPickerComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerComponentView.swift; sourceTree = "<group>"; };
+		B818C7C22B929459000215E2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B818C7C52B929471000215E2 /* LinearBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearBackgroundView.swift; sourceTree = "<group>"; };
+		B818C7C92B94D94D000215E2 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		B818C7CC2B94E850000215E2 /* ImagePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholderView.swift; sourceTree = "<group>"; };
+		B818C7CF2B94EC88000215E2 /* TextPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPickerView.swift; sourceTree = "<group>"; };
+		B818C7D22B950062000215E2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B818C7D42B951817000215E2 /* ToggleComponentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleComponentBuilder.swift; sourceTree = "<group>"; };
+		B818C7D72B95196D000215E2 /* LocalizationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationKeys.swift; sourceTree = "<group>"; };
+		B818C7DA2B951A9E000215E2 /* LocalizedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedTextView.swift; sourceTree = "<group>"; };
+		B818C7DD2B95CEA3000215E2 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		B818C7DF2B95E3C6000215E2 /* HomeView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView+Extensions.swift"; sourceTree = "<group>"; };
+		B818C7E62B95E821000215E2 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		B818C7E82B95E980000215E2 /* ColorPickerComponentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerComponentBuilder.swift; sourceTree = "<group>"; };
+		B857ECBF2B9648C600A8CAFD /* ProximaNova.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova.ttf; sourceTree = "<group>"; };
+		B857ECC12B9648F500A8CAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B857ECC22B9662E100A8CAFD /* BrandButtonViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButtonViewBuilder.swift; sourceTree = "<group>"; };
+		B8ADA19C2B97366500D58B2F /* kztimesnewroman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kztimesnewroman.ttf; sourceTree = "<group>"; };
+		B8ADA19E2B974D9300D58B2F /* BrandButtonView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrandButtonView+Style.swift"; sourceTree = "<group>"; };
+		B8ADA1A02B9753B200D58B2F /* BrandButtonView+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrandButtonView+UIKit.swift"; sourceTree = "<group>"; };
+		B8ADA1A22B9757E400D58B2F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +106,17 @@
 		B818C7962B91D4E0000215E2 /* BrandButton */ = {
 			isa = PBXGroup;
 			children = (
+				B857ECC12B9648F500A8CAFD /* Info.plist */,
 				B818C7972B91D4E0000215E2 /* BrandButtonApp.swift */,
-				B818C7992B91D4E0000215E2 /* ContentView.swift */,
+				B818C7D62B951955000215E2 /* Localization */,
+				B818C7D12B950054000215E2 /* HapticManager */,
+				B818C7C82B94D942000215E2 /* InitialView */,
+				B818C7C12B929449000215E2 /* SplashView */,
+				B818C7C72B94D92A000215E2 /* HomeView */,
+				B818C7B82B928BF7000215E2 /* Components */,
+				B818C7B32B9287DC000215E2 /* Extensions */,
+				B818C7B22B9287C5000215E2 /* ButtonStyle */,
+				B857ECBE2B9648AC00A8CAFD /* Fonts */,
 				B818C79B2B91D4E3000215E2 /* Assets.xcassets */,
 				B818C79D2B91D4E3000215E2 /* Preview Content */,
 			);
@@ -65,6 +129,201 @@
 				B818C79E2B91D4E3000215E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B818C7B12B92879D000215E2 /* BrandButton */ = {
+			isa = PBXGroup;
+			children = (
+				B857ECC42B966BD500A8CAFD /* Builder */,
+				B818C7B42B928813000215E2 /* View */,
+			);
+			path = BrandButton;
+			sourceTree = "<group>";
+		};
+		B818C7B22B9287C5000215E2 /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7AF2B928551000215E2 /* BaseButtonViewColorStyle.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		B818C7B32B9287DC000215E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7A92B92731D000215E2 /* EnvironmentValue+Extensions.swift */,
+				B8ADA1A22B9757E400D58B2F /* UIViewController+Extensions.swift */,
+				B818C7AD2B927A1E000215E2 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B818C7B42B928813000215E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7A72B91D647000215E2 /* BrandButtonView.swift */,
+				B8ADA1A02B9753B200D58B2F /* BrandButtonView+UIKit.swift */,
+				B818C7AB2B927386000215E2 /* BaseButtonView+Extension.swift */,
+				B8ADA19E2B974D9300D58B2F /* BrandButtonView+Style.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B818C7B82B928BF7000215E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7E32B95E7EA000215E2 /* BaseButton */,
+				B818C7DC2B95CE99000215E2 /* SliderView */,
+				B818C7D92B951A8D000215E2 /* LocalizedTextView */,
+				B818C7CE2B94EC70000215E2 /* TextPicker */,
+				B818C7CB2B94E83F000215E2 /* ImagePlaceholder */,
+				B818C7B12B92879D000215E2 /* BrandButton */,
+				B818C7C42B929460000215E2 /* LinearBackground */,
+				B818C7BE2B9290AA000215E2 /* ColorPicker */,
+				B818C7B92B928BFF000215E2 /* Toggle */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B818C7B92B928BFF000215E2 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7BA2B928C12000215E2 /* ToggleComponentView.swift */,
+				B818C7D42B951817000215E2 /* ToggleComponentBuilder.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		B818C7BE2B9290AA000215E2 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7BF2B9290B8000215E2 /* ColorPickerComponentView.swift */,
+				B818C7E82B95E980000215E2 /* ColorPickerComponentBuilder.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		B818C7C12B929449000215E2 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7C22B929459000215E2 /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		B818C7C42B929460000215E2 /* LinearBackground */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7C52B929471000215E2 /* LinearBackgroundView.swift */,
+			);
+			path = LinearBackground;
+			sourceTree = "<group>";
+		};
+		B818C7C72B94D92A000215E2 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7E22B95E67F000215E2 /* ViewModel */,
+				B818C7E12B95E675000215E2 /* View */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		B818C7C82B94D942000215E2 /* InitialView */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7C92B94D94D000215E2 /* InitialView.swift */,
+			);
+			path = InitialView;
+			sourceTree = "<group>";
+		};
+		B818C7CB2B94E83F000215E2 /* ImagePlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7CC2B94E850000215E2 /* ImagePlaceholderView.swift */,
+			);
+			path = ImagePlaceholder;
+			sourceTree = "<group>";
+		};
+		B818C7CE2B94EC70000215E2 /* TextPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7CF2B94EC88000215E2 /* TextPickerView.swift */,
+			);
+			path = TextPicker;
+			sourceTree = "<group>";
+		};
+		B818C7D12B950054000215E2 /* HapticManager */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7D22B950062000215E2 /* HapticManager.swift */,
+			);
+			path = HapticManager;
+			sourceTree = "<group>";
+		};
+		B818C7D62B951955000215E2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7D72B95196D000215E2 /* LocalizationKeys.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B818C7D92B951A8D000215E2 /* LocalizedTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7DA2B951A9E000215E2 /* LocalizedTextView.swift */,
+			);
+			path = LocalizedTextView;
+			sourceTree = "<group>";
+		};
+		B818C7DC2B95CE99000215E2 /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7DD2B95CEA3000215E2 /* SliderView.swift */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		B818C7E12B95E675000215E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7992B91D4E0000215E2 /* HomeView.swift */,
+				B818C7DF2B95E3C6000215E2 /* HomeView+Extensions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B818C7E22B95E67F000215E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7BC2B928C8C000215E2 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B818C7E32B95E7EA000215E2 /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				B818C7E62B95E821000215E2 /* BaseButtonStyle.swift */,
+			);
+			path = BaseButton;
+			sourceTree = "<group>";
+		};
+		B857ECBE2B9648AC00A8CAFD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADA19C2B97366500D58B2F /* kztimesnewroman.ttf */,
+				B857ECBF2B9648C600A8CAFD /* ProximaNova.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B857ECC42B966BD500A8CAFD /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				B857ECC22B9662E100A8CAFD /* BrandButtonViewBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +385,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B818C79F2B91D4E3000215E2 /* Preview Assets.xcassets in Resources */,
+				B8ADA19D2B97366500D58B2F /* kztimesnewroman.ttf in Resources */,
 				B818C79C2B91D4E3000215E2 /* Assets.xcassets in Resources */,
+				B857ECC02B9648C600A8CAFD /* ProximaNova.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +398,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B818C79A2B91D4E0000215E2 /* ContentView.swift in Sources */,
+				B818C7BB2B928C12000215E2 /* ToggleComponentView.swift in Sources */,
+				B818C7C62B929471000215E2 /* LinearBackgroundView.swift in Sources */,
+				B818C7AA2B92731D000215E2 /* EnvironmentValue+Extensions.swift in Sources */,
+				B8ADA19F2B974D9300D58B2F /* BrandButtonView+Style.swift in Sources */,
+				B818C7D82B95196D000215E2 /* LocalizationKeys.swift in Sources */,
+				B818C7E72B95E821000215E2 /* BaseButtonStyle.swift in Sources */,
+				B818C7D52B951817000215E2 /* ToggleComponentBuilder.swift in Sources */,
+				B818C79A2B91D4E0000215E2 /* HomeView.swift in Sources */,
+				B818C7DE2B95CEA3000215E2 /* SliderView.swift in Sources */,
+				B818C7BD2B928C8C000215E2 /* HomeViewModel.swift in Sources */,
+				B818C7E92B95E980000215E2 /* ColorPickerComponentBuilder.swift in Sources */,
+				B818C7CA2B94D94D000215E2 /* InitialView.swift in Sources */,
+				B818C7B02B928551000215E2 /* BaseButtonViewColorStyle.swift in Sources */,
+				B818C7DB2B951A9E000215E2 /* LocalizedTextView.swift in Sources */,
+				B818C7CD2B94E850000215E2 /* ImagePlaceholderView.swift in Sources */,
+				B857ECC32B9662E100A8CAFD /* BrandButtonViewBuilder.swift in Sources */,
+				B818C7C32B929459000215E2 /* SplashView.swift in Sources */,
+				B818C7A82B91D647000215E2 /* BrandButtonView.swift in Sources */,
+				B818C7C02B9290B8000215E2 /* ColorPickerComponentView.swift in Sources */,
+				B818C7AE2B927A1E000215E2 /* Color+Extensions.swift in Sources */,
 				B818C7982B91D4E0000215E2 /* BrandButtonApp.swift in Sources */,
+				B818C7D02B94EC88000215E2 /* TextPickerView.swift in Sources */,
+				B8ADA1A32B9757E400D58B2F /* UIViewController+Extensions.swift in Sources */,
+				B818C7AC2B927386000215E2 /* BaseButtonView+Extension.swift in Sources */,
+				B818C7E02B95E3C6000215E2 /* HomeView+Extensions.swift in Sources */,
+				B818C7D32B950062000215E2 /* HapticManager.swift in Sources */,
+				B8ADA1A12B9753B200D58B2F /* BrandButtonView+UIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +561,7 @@
 				DEVELOPMENT_TEAM = NUPV8CM5G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +591,7 @@
 				DEVELOPMENT_TEAM = NUPV8CM5G6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrandButton/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

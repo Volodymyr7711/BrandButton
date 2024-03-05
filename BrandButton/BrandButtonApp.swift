@@ -11,7 +11,7 @@ import SwiftUI
 struct BrandButtonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           InitialView()
         }
     }
 }
