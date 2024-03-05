@@ -100,6 +100,25 @@ struct ContentView: View {
     }
 }
 ```
+If you wish to set a custom Image, you need to set `leadingIcon` or `trailingIcon` as described below:
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        BrandButtonView(
+            label: "Hello world!"
+            fontSize: 15,
+            backgroundColor: .green,
+            pressedColor: .red,
+            pressedLabel: "Custom Pressed",
+            variant: .constant(.custom),
+            leadingIcon: Image(systemName: "chevron.left"), /// Set custom leading icon
+            trailingIcon: Image(systemName: "chevron.right") /// Set custom trailing icon
+        )
+    }
+}
+```
 
 ## Here is a list of parameters which can be modifiable:
 - label: `LocalizedStringKey`
