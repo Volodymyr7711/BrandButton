@@ -46,7 +46,7 @@ extension UIViewController {
         }
 }
 ```
-These lines of code help us to easy present SwiftUI View inside UIKit ViewController.
+These lines of code help us to easily present SwiftUI View inside UIKit ViewController.
 
 
 ```swift
@@ -78,6 +78,7 @@ public final class HomeViewController: UIViewController {
     HomeViewController()
 }
 ```
+
 
 ### Using BrandButton in SwiftUI
 
